@@ -6,9 +6,10 @@ class tango:
     def Live(self):
         pass
     def hienthi(self): 
-        return str(self.age) + " " + self.name + " " + str(self.birthday)
+        return self.age+self.name+self.birthday
     def get(self):
         print("ao uoc no  khac gi nhau")
 
 kh=tango("le van tuan",19,20)
-print(kh.hienthi())
+print(kh.hienthi( ))
+tan=tango("nguyen van bao",19,20)
